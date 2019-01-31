@@ -65,7 +65,7 @@ This screen shows the user deleting a Quiz from their collection.
 | Show alert errors and empty states as appropriate e.g "no quizzes added" if quizzes haven't been created | 4 |
 | Sort online quizzes by name | 4 |
 
-Total Points (MVP) 56 Points
+Total Points (MVP) 60 Points
 
 ## Architecture 
 
