@@ -90,6 +90,24 @@ Quizzes API
 
 ```GET http://5c4d4c0d0de08100147c59b5.mockapi.io/api/v1/quizzes```
 
+## Project Resources 
+
+Feel free to use the provided resources, but you are also okay to use your own utility classes (e.g NetworkHelper or URLSession directly) and assets. 
+
+Assets 
+- add icon collection view search cell 
+- create icon for tab bar 
+- placeholder image for profile view 
+- quiz icon for tab bar 
+- profile icon for tab bar 
+- use the system search icon 
+
+Utility Files 
+- AppError 
+- NetworkHelper 
+- DataPersistenceManager 
+- Date+Extensions
+- String+DateExtensions
 
 ## Extra Credit - Bonus
 
