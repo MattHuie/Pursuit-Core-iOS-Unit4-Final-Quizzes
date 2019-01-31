@@ -18,23 +18,23 @@ Build a Quiz app that allows the user to create quizzes. Those created quizzes s
 ### Profile Creation
 Here app is showing empty state as the user hasn't create any quizzes. When the user navigates to the "Create" tab is has not logged in an alert is presented. The user is able to create a profile including username and image from the photo library.
 
-![Quizzes Gif]()    
+![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-1.gif)    
 
 ### Adding a Quiz from the Search tab
 Here the user is search for a quiz and succesfully adds it to their Quiz collection. The user is able to click on a Quiz in their collection and view it using a transition view animation. The Quiz first shows the title then when the user taps on the Quiz it transitions to the description. 
 
-![Quizzes Gif]()    
+![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-2.gif)    
 
 ### Creating a Quiz 
 This screen is show the Quiz creation process. Make sure to handle all required fields appropriately with alerts to the user. e.g "Title is required" alert, or "The Quiz required two facts" alert.
 
-![Quizzes Gif]()    
+![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-3.gif)    
 
 
 ### Deleting a Quiz
 This screen shows that the user is able to delete a Quiz from their collection.   
 
-![Quizzes Gif]()    
+![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-4.gif)    
 
 
 ## The process of creating a quiz in the Create Quiz View Controller
