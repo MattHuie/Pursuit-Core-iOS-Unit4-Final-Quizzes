@@ -16,23 +16,23 @@ Build a Quiz app that allows the user to create quizzes. Created quizzes should 
 ## Gif 
 
 ### Profile Creation
-In this gif the app is showing an empty state as the user hasn't created any quizzes. When the user navigates to the "Create" tab an alert is shown because the user hasn't set up their profile. The user is able to create a profile including username and image from the photo library. Persist the User model to the documents directory along with their Quizzes. 
+In this gif the app is showing an empty state as the user hasn't created any quizzes. When the user navigates to the "Create" tab an alert is shown because the user hasn't set up their profile. The user is able to create a profile including username and image from the photo library. Persist the **User** model to the documents directory along with their Quizzes. 
 
 ![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-1.gif)    
 
 ### Adding a Quiz from the Search tab
-Here the user is searching for a quiz and succesfully adds it to their Quiz collection. The user is able to click on a Quiz in their collection and view it using a transition view animation. The Quiz first shows the title then when the user taps on the Quiz it transitions with an animation to show the (fact) description. 
+Here the user is searching for a quiz and succesfully adds it to their quiz collection. The user is able to click on a quiz in their collection and view it using a transition view animation. The flash card first shows the quiz title then when the user taps on the card, it transitions with an animation to show the (fact) description. 
 
 ![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-2.gif)    
 
 ### Creating a Quiz 
-This screen is showing the Quiz creation process. Make sure to handle all required fields appropriately with alerts to the user. e.g "Title is required" alert, or "The Quiz requires two facts" alert. **All fields are required**   
+This screen is showing the quiz creation process. Make sure to handle all required fields appropriately with alerts to the user. e.g "Title is required" alert, or "The Quiz requires two facts" alert. **All fields are required**   
 
 ![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-3.gif)    
 
 
 ### Deleting a Quiz
-This screen shows the user deleting a Quiz from their collection.   
+This screen shows the user deleting a quiz from their collection, updating their profile image and not being able to add a quiz duplicate.   
 
 ![Quizzes Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-4.gif)    
 
