@@ -25,6 +25,7 @@ class SearchViewController: UIViewController {
         view.addSubview(searchView)
         searchView.searchCollectionView.dataSource = self
         searchView.searchCollectionView.delegate = self
+        getQuizzes()
 
         
     }
@@ -49,6 +50,11 @@ extension SearchViewController: UICollectionViewDataSource, UICollectionViewDele
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SearchCell", for: indexPath) as? SearchCollectionViewCell else { return UICollectionViewCell() }
+        let cellToSet = quizzes[indexPath.row]
+        cell.layer.borderWidth = 3
+        cell.layer.cornerRadius = 10
+        cell.layer.borderColor = UIColor.black.cgColor
+        cell.label.text = cellToSet.quizTitle
         return cell
     }
     
