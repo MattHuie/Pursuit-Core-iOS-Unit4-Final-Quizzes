@@ -97,12 +97,12 @@ Quizzes API
 Feel free to use the provided resources below, but you are also okay to use your own utility classes (e.g NetworkHelper or URLSession directly) and assets from icons8 for example. 
 
 Assets 
-- add icon collection view search cell 
+- add icon for the custom collection view search cell 
 - create icon for tab bar 
-- placeholder image for profile view 
+- placeholder image for the profile view 
 - quiz icon for tab bar 
 - profile icon for tab bar 
-- use the system search icon 
+- use the system search icon for the seach tab 
 
 Utility Files 
 - AppError 
