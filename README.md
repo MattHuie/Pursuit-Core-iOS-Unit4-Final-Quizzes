@@ -120,8 +120,8 @@ Utility Files
 | Create View Controller presents modally [Present a View Controller modally when tab is Pressed](https://www.hackingwithswift.com/example-code/uikit/how-do-you-show-a-modal-view-controller-when-a-uitabbarcontroller-tab-is-tapped) | 5 |
 | Use a search bar for searching the user's quiz collection and online quizzes | 5 |
  
-Extra Credit Points 20 Points
+Extra Credit Points 20 Points    
 
-
+![Extra Credit Gif](https://github.com/joinpursuit/Pursuit-Core-iOS-Unit4-Final-Quizzes/blob/master/Images/quizzes-app-extra-credit.gif)    
 
 
