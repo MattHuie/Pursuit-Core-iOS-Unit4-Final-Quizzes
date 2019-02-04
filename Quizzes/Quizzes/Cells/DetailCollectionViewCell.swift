@@ -15,7 +15,6 @@ class DetailCollectionViewCell: UICollectionViewCell {
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
         label.numberOfLines = 3
         label.textAlignment = .center
-        label.backgroundColor = .purple
         return label
     }()
     

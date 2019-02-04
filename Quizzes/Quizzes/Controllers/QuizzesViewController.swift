@@ -31,10 +31,19 @@ class QuizzesViewController: UIViewController {
         savedQuizCollectionView.dataSource = self
         savedQuizCollectionView.delegate = self
         savedQuizCollectionView.register(QuizCollectionViewCell.self, forCellWithReuseIdentifier: "MyQuizCell")
+        if let userName = UserDefaults.standard.object(forKey: UserDefaultsManager.profileNameKey) as? String{
+            quizzes = DataPersistenceModel.getQuizzes(userName: userName)
+        }
         if quizzes.count == 0 {
             messageLabel.isHidden = false
         } else {
             messageLabel.isHidden = true
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if let userName = UserDefaults.standard.object(forKey: UserDefaultsManager.profileNameKey) as? String{
+            quizzes = DataPersistenceModel.getQuizzes(userName: userName)
         }
     }
     
