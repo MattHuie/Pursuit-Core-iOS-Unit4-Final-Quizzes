@@ -12,8 +12,18 @@ class SearchCollectionViewCell: UICollectionViewCell {
     
     lazy var label: UILabel = {
         let label = UILabel()
-        label.backgroundColor = .purple
+        label.lineBreakMode = NSLineBreakMode.byWordWrapping
+        label.numberOfLines = 3
+        label.textAlignment = .center
         return label
+    }()
+    
+    lazy var button: UIButton = {
+        let button = UIButton()
+        button.setTitle("+", for: .normal)
+        button.setTitleColor(.black, for: .normal)
+        button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 35)
+        return button
     }()
     
     override init(frame: CGRect) {
@@ -34,18 +44,25 @@ class SearchCollectionViewCell: UICollectionViewCell {
 extension SearchCollectionViewCell {
     private func setupView() {
         setupLabel()
+        setupButton()
         
+    }
+    private func setupButton() {
+        addSubview(button)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20).isActive = true
+        button.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 50).isActive = true
     }
     
     private func setupLabel() {
         addSubview(label)
         label.translatesAutoresizingMaskIntoConstraints = false
-//        label.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 5).isActive = true
         label.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         label.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
-        label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 11).isActive = true
-        label.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -11).isActive = true
-        label.heightAnchor.constraint(equalToConstant: 20).isActive = true
+        label.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20).isActive = true
+        label.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20).isActive = true
     }
     
 }
