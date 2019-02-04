@@ -78,6 +78,7 @@ extension QuizzesViewController: UICollectionViewDataSource, UICollectionViewDel
         cell.layer.borderWidth = 3
         cell.layer.cornerRadius = 10
         cell.layer.borderColor = UIColor.black.cgColor
+        cell.deleteButton.tag = indexPath.row
         cell.deleteButton.addTarget(self, action: #selector(deleteButtonPressed), for: .touchUpInside)
         return cell
     }
